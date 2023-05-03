@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:3002")
 @RequestMapping("/api/reviews")
 public class ReviewController {
 
